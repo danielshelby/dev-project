@@ -1,0 +1,397 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#logo{
+    text-align:center;
+    margin: 20px 0px 25px 0px;
+}
+body{
+    background-color: rgb(7, 167, 167);
+    font-size: 16px;
+    background: url(../jpg/fondo1.svg);
+}
+#menu{
+    width: 100%;
+    display: flex;
+    flex-wrap :wrap;
+    justify-content: center;
+}
+#menu li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+}
+#menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#menu li:hover{
+    background-color:rgba(0, 0, 0, 0.127);
+}
+.section{
+    width: 100%;
+    display: flex;
+}
+.contenedorInicio{
+    width: 100%;
+    margin: 15px 0 0;
+}
+.contenedorInicio .sectionRight{
+    text-align: right;
+}
+.contenedorInicio .sectionRight img{
+    width:40%;
+}
+.contenedorInicio .sectionLeft{
+    text-align: left;
+}
+.contenedorInicio .sectionLeft img{
+    width:75%;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+.contenedor{
+    width: 100%;
+}
+.cont-ef{
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+}
+.contenedorEvo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedor3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+ }
+ .contenedor4{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+ }
+.contenedorGaleria{
+    width: 100%;
+    margin: 2px;
+    display: flex;
+    flex-wrap :wrap;
+    justify-content: space-evenly;
+}
+.item{
+    width: 45%;
+    height: 45%;
+    text-align: center;
+    margin: 2px;
+    }
+.textos2{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin: 30px;
+    display: block;
+    width: 80%;
+    text-align: center;
+    border: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textos2 p{
+    margin-bottom: 30px;
+}
+.textos{
+    width: 50%;
+    padding: 5px;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.parrafo{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.textoGAleria{
+    text-align:center;
+    margin: 15px 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.imagen{
+    width: 80%;
+    margin: 35px;
+    text-align: center;
+}
+.imagentexto img{
+    width: 40%;
+    text-align: end;
+}
+.imagen img{
+    width: 100%;
+}
+.imagen2 img{
+    width: 100%;
+}
+.imagen2{
+    width: 70%;
+    height: 50px;
+    margin: 35px;
+    text-align: center;
+}
+.imagenGaleria{
+    width: 80%;
+    text-align: center;
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+.subtitulo{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.parrafo{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+#formulario-agregar{
+    width: 90%;
+    height: 190px;
+    font-size: 15px;
+    background-color: #3b589881;
+    color: white;
+    margin: 180px 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+.footer{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.agrega{
+        display: block;
+        width: 100%;
+        text-align: center;
+}
+.agrega .button {
+    color: rgb(255, 255, 255); 
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+.footer .button {
+    color: rgb(255, 255, 255); 
+    padding: 5px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.button2:hover {
+  border: 2px solid #3b589881;
+  color: #3b589881;
+  font-size: 16px;
+}
+.botonF1{
+    width:35px;
+    height:35px;
+    border-radius:100%;
+    background:#F44336;
+    right:10px;
+    bottom:10px;
+    position:fixed;
+    margin-right:16px;
+    margin-bottom:16px;
+    text-align: center;
+    
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition:.4s;  
+  }
+  .botonF1 a{
+    color:#FFF;
+    font-size:26px;
+    text-decoration: none;
+  }
+  .botonF1 img{
+      height: 31px;
+  }
+  .botonF1:hover {
+    border: 2px solid #3b589881;
+    color: #3b589881;
+    font-size: 16px;
+
+  }
+
+/**/
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 999;
+    margin:0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(3 20 82 / 68%);  
+}
+.modal .cerrar{
+    float: right;
+    margin-right: -2px;
+    margin-top: -17px;
+    font-size: 28px;
+}
+.modal .cerrar:hover, .modal .cerrar:focus{
+    color: rgb(67, 67, 67);
+    cursor: pointer;
+}
+.modal-content{
+    width: 75%;
+    margin: 20px auto;
+    padding: 23px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.formulario-agregar {
+    width: 80%;
+    margin: 0 auto;
+}
+.formulario-agregar input{
+    margin: 5px 0 10px;
+    width: 98%;
+    height: 30px;
+    padding: 0 5px;
+}
+.formulario-agregar button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #F44336;
+    color: #fff;
+    border-radius: 30px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.formulario-agregar button:hover{
+    background-color: rgb(46, 88, 130);
+}
+.formulario-agregar h3{
+    margin: 10px 0 20px;
+}
+.formulario-agregar input#pDocument {
+    border: 1px solid #F44336;
+    padding: 10px;
+    width: 96%;
+}
+
+/*MEDIA QUERY*/
+
+@media (min-width:768px)
+{
+    #logo{
+        height: 50px;
+    }
+    .contenedorInicio .sectionRight img{
+        width:40%;
+        margin: 50px 5px;
+    }
+    #menu li{
+        margin: 50px;
+    }
+    #menu li a{
+        font-size: 30px;
+    }
+    .cont-ef .imagen img{
+        width: 60%;
+    }
+    .contenedorInicio .sectionLeft img{
+        width: 60%;
+    }
+    .textos{
+        font-size: 26px;
+        color: #fff;
+    }
+    .textos2{
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        width: 90%;
+    }
+    .titulo{
+        font-size: 120px;
+    }
+    .subtitulo{
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+    .textoGAleria{
+        font-size: 50px;
+        margin: 45px 0;
+    }
+    .cont-ef .textos p{
+        margin-bottom: 30px;
+    }
+    .footer .button{
+        font-size: 30px;
+    }
+    .imagen{
+        width: 90%;
+    }
+    .botonF1{
+        width:50px;
+        height:50px;
+    }
+    .botonF1 img{
+        height: 45px;
+    }
+    .item{
+        width: 32%;
+        }
+    .modal-content {
+            width: 50%;
+    }
+    .agrega .button{
+        height: 45px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1024px)
+{
+    .imagenGaleria{
+        width: 60%;
+        margin: 20px;
+    }
+    .modal-content {
+        width: 50%;
+}
+}
+
+@media (min-width:1024px)
+{
+    .modal-content {
+        width: 30%;
+}
+}

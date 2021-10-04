@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: url(../jpg/fondo1.svg);
+    font-size: 16px;
+}
+#logo{
+    text-align:center;
+    margin: 20px 0px 25px 0px;
+}
+#menu{
+    width: 100%;
+    display: flex;
+    flex-wrap :wrap;
+    justify-content: center;
+}
+#menu li{
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    margin: 18px;
+    padding: 5px;
+}
+#menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.buttonMenu{
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buttonMenu{
+    color: rgb(7, 167, 167);
+    border-color: rgb(7, 167, 167);
+  }
+  
+.buttonMenu:hover{
+    background-color:rgba(0, 0, 0, 0.127);
+    color: rgb(10, 116, 216);
+    font-size: 11px;
+  }
+.textos2{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin: 30px;
+    display: block;
+    width: 80%;
+    text-align: center;
+    border: 10px;
+}
+.imagen{
+    width: 100%;
+    height: 218px;
+    text-align: center;
+}
+.imagen img{
+    width: 100%;
+}
+.contenedor4{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#Formulario{
+    width: 90%;
+    height: 190px;
+    font-size: 15px;
+    padding: 20px 0px 0px 0px;
+    color: white;
+    margin: 30px 15px;
+    border: 2px solid #ffff;
+    border-radius: 10px;
+    text-align: center;
+}
+.button {
+    border: none;
+    background-color: rgb(7, 167, 167); 
+    color: rgb(7, 167, 167); 
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 30%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+.button1 {
+  color:white; 
+  border: 2px solid #ffff;
+}
+
+.button1:hover {
+  border: 2px solid #3b589881;
+  color: #3b589881;
+  font-size: 18px;
+}
+/*MEDIA QUERY*/
+
+@media (min-width:425px){
+    #menu li{
+        margin: 32px;
+    }
+    #Formulario{
+        width: 70%;
+        margin: 110px 15% 70px;
+        text-align: center;
+}
+.button {
+    margin: 4px 35%;
+}
+}
+
+@media (min-width:768px){
+    #logo{
+        margin-top: 20px;
+    }
+
+    #menu li{
+        font-size: 30px;
+        margin: 50px;
+        padding: 18px;
+    }
+  
+    #Formulario{
+        width: 50%;
+        height: 300px;
+        margin: 130px 25%;
+        font-size: 25px;
+        text-align: center;
+        background: #ffffffb0;
+        color: #06a7a7;
+    }
+    .button {
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: -25px 39%;
+        font-size: 25px;
+    }
+    .imagen {
+        height: 370px;
+}
+}
+
+@media (min-width:1024px){
+    #menu li{
+        margin: 32px;
+    }
+    #logo img{
+        width: 70px;
+        height: 63px;
+    }
+    .button {
+        padding: 16px 45px;
+        margin: 0px 41%
+}
+}
